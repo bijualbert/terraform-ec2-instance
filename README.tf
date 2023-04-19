@@ -1,0 +1,2 @@
+#tf_sample:aws_ec2_instance
+This configuration creates an EC2 instance and a security group in AWS. The instance uses the specified AMI and instance type, and the security group allows inbound traffic on the specified port from any IP address. The output specifies the public IP address of the instance. You can customize the configuration by updating the variables in variables.tf.
